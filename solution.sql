@@ -19,3 +19,16 @@ VALUES
 DESCRIBE Course;
 
 
+-- Program 5: Insert Student Records
+
+INSERT INTO Student (StudentID, StudentName, Gender, DepartmentID)
+VALUES
+(1001, 'Arun', 'Male', 101),
+(1002, 'Divya', 'Female', 102),
+(1003, 'Karthik', 'Male', 101);
+
+-- Display all Student records
+SELECT * FROM Student;
+
+-- Display Student table structure
+DESCRIBE Student;
